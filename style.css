@@ -1,32 +1,239 @@
-/* HEADER */
 
-header{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body, .contenaire  {
+    width:100%;
+}
+
+/* RETIRER LE VISUELLE */
+
+.burger {
+    display:none;
+}
+
+.btn-scroll-to-top {
+    display:none;
+}
+#home {
     background: radial-gradient(#8BC3F5, #1294b8);
+    width:100%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    width:100%;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar{
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+.navbar-links{
+    display: ruby-text;
+}
+
+.navbar-link {
+    list-style: none;
+}
+
+.navbar-link a {
+    flex-direction: row;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+#home-socials a {
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+#home-content {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    display: flex;
+    place-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+#home-agency-container{
+    align-content: center;
+}
+
+#home-agency-container h2{
+
+    font-size: 68px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.home-content-p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.subscribe-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f8ff;
+    border-radius: 25px;
+    padding: 5px;
+    padding-right: 350px;
+    width: fit-content;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+#email{
+        border: none;
+        border-radius: 25px 0 0 25px;
+        outline: none;
+        font-size: 16px;
+        color: #333;
+        padding-right: 120px;
+        padding: 10px ;
+}
+
+.submit {
+    border: none;
+    border-radius: 25px 25px;
+    padding: 10px 50px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+  }
+
+.submit:hover {
+    background-color: #0056b3;
+}
+
+#home-image-container img{
+    width: 700PX;
+    padding-left: 30px;
+}
+
+/* ------------------- Section 2 ------------------------- */
+
+#features {
+    padding-top: 100px;
+}
+
+#features h3{
+    text-align: center;
+    font-size: 40px;
+}
+
+#feature-p{
+    text-align: center;
+    font-size: 22px;
+    padding-top: 20px;
+    padding-left: 500px;
+    padding-right: 500px;
 }
 
 
-/* IMAGE HEADER */
+.cards{
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: center;
+    padding-top: 140px;
+    padding-bottom: 150px;
+    color: white;
+}
 
-.illustration {
-    width: 400px;
+.card {
+    padding-top: 125px;
+    padding-bottom: 125px;
+    background: radial-gradient(#8BC3F5, #1294b8);
+    border-radius: 10px;
+}
+
+.card i{
+    font-size: 50px;
+}
+
+.card h4 {
+    padding-top:20px;
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+.card p {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 15px;
+}
+
+#card-margin {
+    margin: 0 100px 0 100px;
+}
+.figure-equipe img {
+    width: 150px;
+    border-radius: 100%;
+}
+
+/* PARTIE CLIENT */
+
+.client h3 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.client p {
+        text-align: center;
+        font-size: 22px;
+        padding-top: 20px;
+        padding-left: 500px;
+        padding-right: 500px;
+}
+
+/* PARTIE EQUIPE */
+
+#works h3 {
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+.works-p {
+        text-align: center;
+        font-size: 22px;
+        padding-top: 20px;
+        padding-left: 500px;
+        padding-right: 500px;
+}
+
+.titles, #equipes {
+    display: flex;
+    place-content: center;
+    text-align-last: center;
+    place-content: space-evenly;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 
-/* A FAIRE */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.personn{
-    width: 200px;
-}
