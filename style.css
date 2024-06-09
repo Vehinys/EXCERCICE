@@ -365,7 +365,7 @@ h1 {
 
 .textBlog {
     text-align: center;
-    font-size: 20px;
+    font-size: 28px;
     padding-left: 500px;
     padding-right: 500px;
     padding-top: 10px;
@@ -472,4 +472,154 @@ h1 {
 
 .projets {
     display: flex;
+}
+
+/* ------------------- Section price ------------------------- */
+
+#our-pricing {
+    text-align: center;
+    padding: 20px;
+}
+
+#our-pricing h3 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.our-pricing-p {
+    font-size: 20px;
+    color: #777;
+    margin-bottom: 30px;
+    padding-left: 600px;
+    padding-right: 600px;
+}
+
+.cards-pricing {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+
+.card-pricing, .card-pricing-advanced {
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+}
+
+.card-pricing h6, .card-pricing-advanced h6 {
+    font-size: 18px;
+}
+
+.card-pricing p em, .card-pricing-advanced p em {
+    font-size: 36px;
+    color: #3498db;
+}
+
+.card-pricing p sup, .card-pricing-advanced p sup {
+    font-size: 18px;
+    top: -8px;
+}
+
+.card-pricing table, .card-pricing-advanced table {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.card-pricing table td, .card-pricing-advanced table td {
+    padding: 10px 0;
+    text-align: left;
+    font-size: 14px;
+}
+
+.card-pricing .options, .card-pricing-advanced .options {
+    font-weight: bold;
+}
+
+.fa-circle-check {
+    color: #28a745;
+    margin-right: 10px;
+}
+
+.fa-circle-xmark {
+    color: #dc3545;
+    margin-right: 10px;
+}
+
+.join-now, .join-now-advanced {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.join-now:hover, .join-now-advanced:hover {
+    background-color: #2980b9;
+}
+
+.sale {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #3498db;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10% 25%;
+    font-size: 14px;
+    text-align: center;
+    margin: -10px;
+}
+
+.card-text {
+    float: right;
+}
+
+
+/* ------------------- Section footer ------------------------- */
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-condition {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-condition p {
+    margin: 0 10px;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.footer-logo a {
+    color: white;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 24px;
+    margin: 0 20px;
+    border-style: solid;
+}
+
+footer small {
+    display: block;
+    margin-top: 20px;
 }
