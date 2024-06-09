@@ -351,6 +351,7 @@ h1 {
     font-size: 16px;
     cursor: pointer;
     background: none;
+    border-style: solid;
 }
 /* ------------------- Section blog ------------------------- */
 
@@ -474,11 +475,31 @@ h1 {
     display: flex;
 }
 
+.creativity-button{
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.projet-01 h5, .projet-02 h5{
+
+    font-size:30px;
+}
+
+.projet-01{
+    padding-right: 50px;
+}
+
 /* ------------------- Section price ------------------------- */
 
 #our-pricing {
     text-align: center;
     padding: 20px;
+    background-color: rgba(221, 218, 218, 0.452);
 }
 
 #our-pricing h3 {
@@ -554,7 +575,7 @@ h1 {
     background-color: #3498db;
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 10px 80px;
     border-radius: 5px;
     font-size: 16px;
 }
@@ -578,6 +599,10 @@ h1 {
 
 .card-text {
     float: right;
+}
+
+.card-pricing-advanced{
+    transform: translateY(-20px)
 }
 
 
