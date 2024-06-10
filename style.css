@@ -691,11 +691,11 @@ footer small {
 
 @media only screen and (max-width: 430px) {
 
-#home-socials{
+#home-socials {
     display: none;
 }
 
-.navbar-links{
+.navbar-links {
     display: none;
 }
 
@@ -707,7 +707,7 @@ body {
 .navba{
     position: absolute;
     margin: 30px;
-    
+
 }
 
 /* HEADER */
