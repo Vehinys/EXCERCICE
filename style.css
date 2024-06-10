@@ -413,19 +413,14 @@ margin: 50px 0;
 
 .textImage {
     position: absolute;
-    top: 10%;
-    left: 20%;
-    transform: translate(-150%, -50%);
     color: black;
     font-size: 20px;
+    top: 0%;
+    left: 0%;
 }
-
 
 #textCss{
     margin-top: 30px;
-}
-.textImage :hover{
-
 }
 
 .blog-centered {
@@ -690,4 +685,334 @@ footer {
 footer small {
     display: block;
     margin-top: 20px;
+}
+
+@media only screen and (max-width: 430px) {
+
+
+body{
+    max-width: 430px;
+}
+
+/* HEADER */
+
+    header{
+        display: contents;
+    }
+
+    h1 {
+        font-size: 75px;
+        padding-left: 30px;
+    }
+
+    #home-agency-container h2 {
+        font-size: 41px;
+        text-align: center;
+    }
+
+    .home-content-p {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    #home-content{
+        display: contents;
+    }
+
+    #home-image-container img {
+        display: none;
+    }
+
+    #email{
+        padding-right: 0px;
+    }
+
+    .subscribe-container {
+        margin-bottom: 20px;
+    }
+
+/* FEATURES */
+
+    #features{
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    #features h3 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    #feature-p {
+        font-size: 15px;
+        padding: 0px 0px 20px;
+    }
+
+    .cards {
+        display: contents;
+    }
+
+    .card {
+        padding-top: 10px;
+        margin: 0px 50px 0px 70px;
+        padding: 10px 10px 10px 10px;
+        background: radial-gradient(#8BC3F5, #1294b8);
+        border-radius: 10px;
+        box-shadow: 5px 6px 5px -2px rgba(0, 0, 0, 0.61);
+        -webkit-box-shadow: 5px 6px 5px -2px rgba(0, 0, 0, 0.61);
+        -moz-box-shadow: 5px 6px 5px -2px rgba(0, 0, 0, 0.61);
+        transition: none;
+    }
+
+    .card:hover{
+        transform: none; 
+    }
+    
+    #card-margin {
+        margin: 25px 50px 25px 70px;
+    }
+
+    .card i {
+        font-size: 30px;
+    }
+
+    .card h4 {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        font-size: 25px;
+    }
+
+    .card p {
+        margin: 0px 0px;
+        font-size: 13px;
+        padding: 10px;
+    }
+
+
+/* CLIENTS */
+
+    .client{
+        padding: 30px 0;
+    }
+
+    .client h3 {
+        padding: 0;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .client p {
+        padding: 10px 60px 0px;
+        font-size: 15px;
+    }
+
+/* BLOG */
+    #blog{
+        margin: 20px 0;
+    }
+    .articles-blog {
+        display: contents;
+    }
+
+    #blog h3 {
+        padding: 0px 0px;
+        font-size: 30px;
+    }
+
+    #blog h4{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #blog figure{
+        padding: 20px 0;
+    }
+
+    #blog img {
+        width: 300px;
+    }
+
+    .blog-centered {
+        margin: 0px;
+        text-align: center;
+        font-size: 15px;
+        margin: 0px 30px;
+    }
+    .textBlog {
+        font-size: 15px;
+        padding: 0px 40px;
+    }
+
+    .textImage{
+        display: none;
+    }
+
+    .blog-centered p{
+        font-size: 15px;
+        padding: -1px 20px;
+    }
+
+    .read-more {
+        text-decoration: none;
+        color: #1f8beb;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+/* EQUIPE */
+    .titles, #equipes {
+        display: contents;
+    }
+
+    .equipes {
+        padding: 0 20px;
+    }
+
+    .equipe {
+        padding: 0 0px;
+    }
+
+    .titles{
+        font-size: 20px;
+    }
+
+    .titles p{
+        margin: 0px 0 5px;
+    }
+
+    .title h6{
+        margin: 0 0 10px;
+    }
+
+    .figure-equipe img {
+        width: 160px;
+        border-radius: 100%;
+        margin: 0 0px;
+        filter: none;
+        transition: none;
+
+    }
+
+    .margin-equipe{
+        padding: 10px 0;
+    }
+
+    .figure-equipe img:hover {
+        filter: none;
+    }
+
+    #color-equipe{
+        background-color: rgba(221, 218, 218, 0.452);
+    }
+
+    .reseaux-img {
+        position: sticky;
+        top: 0%;
+        left: 0%;
+        color: #333;
+        border: none;
+        border-radius: 50%;
+        margin: 0;
+        font-size: 25px;
+        transition-duration: none;
+    }
+
+/* CREATIVITY*/
+    #creativity {
+        display: contents;
+        margin: 20px 0;
+    }
+
+    .creativity-01 h3{
+        padding: 0px 0px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .creativity-p {
+        font-size: 15px;
+        padding: 0px;
+
+    }
+
+    .creativity-02 img {
+        width: 200px;
+    }
+
+/* WORK */
+
+    #works h3 {
+        font-size: 20px;
+        padding: 20px 50px 0;
+        text-align: center;
+    }
+    
+    .works-p {
+        padding: 15px 60px 15px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .logo {
+        display: contents;
+        text-align-last: center;
+    }
+
+    #display{
+        margin: 30px;
+    }
+
+    .display{
+        display: flex;
+        place-content: center;
+    }
+
+/* Your client */
+    #client {
+        padding: 20px 0;
+    }
+
+    #client h3 {
+        padding: 0px 0px;
+        font-size: 30px;
+    }
+
+    #client p {
+        text-align: center;
+        font-size: 15px;
+        padding: 10px 30px;
+    }
+
+/* PRICING */
+    .our-pricing-p {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .cards-pricing {
+        display: contents;
+    }
+
+
+/* PARALLAX */ 
+
+    .parallax {
+        margin-top: 0px;
+    }
+    
+    #faq h3 {
+        font-size: 26px;
+        padding-bottom: 190px;
+    }
+    
+    #faq p {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    
+    .btn-faq {
+        margin-top: 100px;
+    }
 }
