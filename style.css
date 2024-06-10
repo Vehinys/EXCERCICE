@@ -10,15 +10,11 @@ body, .contenaire  {
     width:100%;
 }
 
-/* RETIRER LE VISUELLE */
-
-.burger {
-    display:none;
-}
-
-label {
+label{
     display: none;
 }
+
+/* RETIRER LE VISUELLE */
 
 
 .btn-scroll-to-top {
@@ -711,6 +707,7 @@ footer small {
 }
 
 label {
+    display: flex;
     width: 30px;
     font-size: 40px;
     color: white;
