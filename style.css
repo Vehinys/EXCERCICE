@@ -695,27 +695,19 @@ footer small {
     display: none;
 }
 
-.navbar{
+.navbar-links{
     display: none;
 }
 
-#label {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 10px 0 0 0;
-}
-
-label {
-    display: flex;
-    width: 30px;
-    font-size: 40px;
-    color: white;
-    cursor: pointer;
-}
 
 body {
     max-width: 430px;
+}
+
+.navba{
+    position: absolute;
+    margin: 30px;
+    
 }
 
 /* HEADER */
