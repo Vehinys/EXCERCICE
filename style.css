@@ -10,8 +10,22 @@ body, .contenaire  {
     width:100%;
 }
 
-label{
+.burger {
     display: none;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30px;
+    width: 35px;
+    border: none;
+    background-color: transparent;
+    position:relative;
+}
+
+.burger span {
+    background-color: black;
+    height: 4px;
+    width: 100%;
 }
 
 /* RETIRER LE VISUELLE */
@@ -57,11 +71,6 @@ h1 {
     font-size: 40px;
     font-weight: bold;
     color: white;
-}
-
-.navbar {
-    padding-left: 350px;
-    padding-right: 350px;
 }
 
 .navbar-links {
@@ -469,9 +478,9 @@ margin: 50px 0;
     padding-bottom: 60px;
 }
 
-.logo {
+.logo{
     display: flex;
-    justify-content: space-evenly;
+    place-content: center;
 }
 
 #client img {
@@ -697,17 +706,25 @@ footer small {
 
 .navbar-links {
     display: none;
+    flex-direction: column;
+    width: 100%;
 }
 
+.navbar-links.active {
+    display: flex;
+}
+
+.burger {
+    display: flex;
+
+}
 
 body {
     max-width: 430px;
 }
 
-.navba{
-    position: absolute;
-    margin: 30px;
-
+.navbar{
+    display: flex;
 }
 
 /* HEADER */
@@ -718,6 +735,7 @@ body {
 
     h1 {
         font-size: 45px;
+        padding-left: 45px;
     }
 
     #home-agency-container h2 {

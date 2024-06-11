@@ -17,9 +17,11 @@ let mybutton = document.getElementById("scrollToTopBtn");
             document.documentElement.scrollTop = 0;
         };
 
-const menuHamburger = document.querySelector(".menu-hamburger")
-const navLinks = document.querySelector(".nav-links")
-
-menuHamburger.addEventListener('click',()=>{
-navLinks.classList.toggle('mobile-menu')
-})
+document.addEventListener('DOMContentLoaded', () => {
+    const burger = document.querySelector('.burger');
+    const navLinks = document.querySelector('.navbar-links');
+        
+burger.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+});
+});
