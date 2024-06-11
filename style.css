@@ -23,8 +23,8 @@ body, .contenaire  {
 }
 
 .burger span {
-    background-color: black;
-    height: 4px;
+    background-color: white;
+    height: 3px;
     width: 100%;
 }
 
@@ -705,26 +705,30 @@ footer small {
 }
 
 .navbar-links {
-    display: none;
     flex-direction: column;
     width: 100%;
+    
 }
 
 .navbar-links.active {
+    display: flex;
+    left: 50px;
+    padding: 0px 0px 0px 250px;
+}
+
+.navbar{
     display: flex;
 }
 
 .burger {
     display: flex;
+    bottom: 50px;
+    right: 35px;
 
 }
 
 body {
     max-width: 430px;
-}
-
-.navbar{
-    display: flex;
 }
 
 /* HEADER */
