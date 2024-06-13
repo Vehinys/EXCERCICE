@@ -17,11 +17,13 @@ let mybutton = document.getElementById("scrollToTopBtn");
             document.documentElement.scrollTop = 0;
         };
 
-document.addEventListener('DOMContentLoaded', () => {
-    const burger = document.querySelector('.burger');
-    const navLinks = document.querySelector('.navbar-links');
-        
-burger.addEventListener('click', () => {
-    navLinks.classList.toggle('active');
-});
-});
+    // Menu burger
+
+        const button = document.querySelector('.burger');
+        const nav = document.querySelector('.navbar-links');
+         
+            button.addEventListener('click', () => {
+                nav.classList.toggle('active');
+            });
+
+            

@@ -10,26 +10,11 @@ body, .contenaire  {
     width:100%;
 }
 
-.burger {
+.burger{
     display: none;
-    cursor: pointer;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 30px;
-    width: 35px;
-    border: none;
-    background-color: transparent;
-    position:relative;
-}
-
-.burger span {
-    background-color: white;
-    height: 3px;
-    width: 100%;
 }
 
 /* RETIRER LE VISUELLE */
-
 
 .btn-scroll-to-top {
     position: fixed;
@@ -63,7 +48,7 @@ header {
     display: flex;
     align-items: center;
     width:100%;
-    justify-content: center;
+    justify-content: space-evenly;
     padding-top: 20px;
 }
 
@@ -704,32 +689,55 @@ footer small {
     display: none;
 }
 
-.navbar-links {
-    flex-direction: column;
-    width: 100%;
-    
-}
-
-.navbar-links.active {
-    display: flex;
-    left: 50px;
-    padding: 0px 0px 0px 250px;
-}
-
-.navbar{
-    display: flex;
-}
-
-.burger {
-    display: flex;
-    bottom: 50px;
-    right: 35px;
-
-}
-
 body {
     max-width: 430px;
 }
+
+/* ------------------------------------------ */
+
+.navbar {
+    display: flex;
+    text-align: end;
+    justify-content: flex-end;
+    margin-right: 23px;
+}
+
+.navbar-links{
+    display: none;
+}
+
+.navbar-links:active {
+    display: block;
+}
+
+.active{
+    display: block;
+}
+
+
+.burger {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    border: none;
+    border-radius: 2px;
+    position: absolute;
+    top: 5%;
+    left: 86%;
+    padding-bottom: 10px;
+    transform: translate(-50%, -50%);
+}
+
+
+.burger span {
+    border: 3px solid white;
+    padding-left: 30px;
+    margin-bottom: 7px;
+    width: 10px;
+    border-radius: 20px;
+}
+
+/* ------------------------------------------ */
 
 /* HEADER */
 
